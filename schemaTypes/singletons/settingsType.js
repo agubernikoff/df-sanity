@@ -40,6 +40,12 @@ export const settingsType = defineType({
           description: 'logout button',
           type: 'string',
         },
+        {
+          name: 'log_in',
+          title: 'Log In',
+          description: 'log in button',
+          type: 'string',
+        },
       ],
     }),
     defineField({
@@ -104,6 +110,11 @@ export const settingsType = defineType({
             {name: 'label', type: 'string'},
             {name: 'placeholder', type: 'string'},
           ],
+        },
+        {
+          name: 'submit_button',
+          type: 'object',
+          fields: [{name: 'label', type: 'string'}],
         },
       ],
     }),
