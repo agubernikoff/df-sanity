@@ -220,6 +220,11 @@ export const settingsType = defineType({
           type: 'object',
           fields: [{name: 'label', type: 'string'}],
         },
+        {
+          name: 'submit_button',
+          type: 'object',
+          fields: [{name: 'label', type: 'string'}],
+        },
       ],
     }),
   ],
